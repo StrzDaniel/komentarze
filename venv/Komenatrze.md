@@ -62,12 +62,19 @@ aplikacja odetnie wszystko ponad.
 * komentarz można wpisać ręcznie i wciskając przycisk "sprawdz" wyświetlić kategoryzację komenatrza przez sieć neuronową
 * komentarze można wybrać na postawie dat "od" "do" i wciskając przycisk "sprawdz z bazy" wyświetlić kategoryzację wszytkich 
     tekstów znajdujących się w bazie danych sklepu w zakresie wybranych dat
---
+---
 ## Sieć neuronowa - zapisana, wyniki
 Przygotowania sieć neruonowa ma nastepujące parametry
 
-![dokładnosc](https://github.com/StrzDaniel/komentarze/blob/8b0d53b2f17943122e2d71e76b5c69e82e426d5e/venv/accuracy.PNG)
-#![Image](http://url/a.png) 
+* parametry przygotowanej sieci :
+
+* ![img_1.png](img_1.png)
+
+* Dokłądność po wytrenowaniu 
+
+* ![dokładnosc](https://github.com/StrzDaniel/komentarze/blob/8b0d53b2f17943122e2d71e76b5c69e82e426d5e/venv/accuracy.PNG)
+* ![img.png](img.png)
+
 ---
 ## Siec neuronowa - ponowne trenowania
 Głowna aplikacja wykorzystuje siec neuronową stoworzoną i wytrenowaną w tym skrypcie.
