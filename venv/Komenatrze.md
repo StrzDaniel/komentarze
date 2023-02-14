@@ -66,7 +66,8 @@ aplikacja odetnie wszystko ponad.
 ## Sieć neuronowa - zapisana, wyniki
 Przygotowania sieć neruonowa ma nastepujące parametry
 
-
+![dokładnosc](https://github.com/StrzDaniel/komentarze/blob/8b0d53b2f17943122e2d71e76b5c69e82e426d5e/venv/accuracy.PNG)
+#![Image](http://url/a.png)
 ---
 ## Siec neuronowa - ponowne trenowania
 Głowna aplikacja wykorzystuje siec neuronową stoworzoną i wytrenowaną w tym skrypcie.
