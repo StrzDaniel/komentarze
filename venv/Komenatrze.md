@@ -62,11 +62,20 @@ aplikacja odetnie wszystko ponad.
 * komentarz można wpisać ręcznie i wciskając przycisk "sprawdz" wyświetlić kategoryzację komenatrza przez sieć neuronową
 * komentarze można wybrać na postawie dat "od" "do" i wciskając przycisk "sprawdz z bazy" wyświetlić kategoryzację wszytkich 
     tekstów znajdujących się w bazie danych sklepu w zakresie wybranych dat
+--
+## Sieć neuronowa - zapisana, wyniki
+Przygotowania sieć neruonowa ma nastepujące parametry
+
 
 ---
 ## Siec neuronowa - ponowne trenowania
-Głowna aplikacja wykorzystu
-Stworzona sieć neuronowa RNN w oparciu o biliotekę Tensorflow z nakładką Keras.   
+Głowna aplikacja wykorzystuje siec neuronową stoworzoną i wytrenowaną w tym skrypcie.
+Stworzona sieć neuronowa RNN w oparciu o biliotekę Tensorflow z nakładką Keras. Do trenowania sieci wykorzystano
+plik komenatarze.xls, który zawiera 6 opisanych powyżej rodzajów komenatrzy z odpowiednimi labelami.
+>Plik z komenatrzami zawiera ograniczoną ilość komenatrzy, a ich zwiększenie i ponowne przetrenowanie 
+sieci, poprawiłoby wyniki i  trafności przewidywań i klasyfikacji. W miarę upływu czasu pracy sklepu gdy
+> ilośc komenatarzy w sklepie będzie roznać, zaleca się uzupełnienie listy i ponowne przetrenowanie modelu
+
 
 ---
 ## Autorzy 
